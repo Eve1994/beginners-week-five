@@ -14,3 +14,12 @@ body {
   width: 500px;
   height: 600px;
 }
+
+."btn-primary" {
+    height:200px;
+    width:200px;
+}
+
+.nav-item a{
+    font-family: Verdana !important;
+}
