@@ -10,10 +10,30 @@ body {
     color: white;
     opacity: 0.95;}
 
-.carousel-item {
+/* .carousel-item {
   width: 500px;
   height: 600px;
+} */
+
+body, html {
+  height: 100%;
 }
+
+.bg {
+  /* The image used */
+  background-image: url("./images/rings.jpg");
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 ."btn-primary" {
     height:200px;
@@ -22,4 +42,10 @@ body {
 
 .nav-item a{
     font-family: Verdana !important;
+}
+
+.button
+{
+    font-size: 13px;
+    color:green;
 }
