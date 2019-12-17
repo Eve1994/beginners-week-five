@@ -1,8 +1,5 @@
-body {
-  padding-top: 5rem;
-}
 .starter-template {
-  padding: 3rem 1.5rem;
+  /*padding: 3rem 1.5rem;*/
   text-align: left;
 
     background-color: #800080;
@@ -10,16 +7,35 @@ body {
     color: white;
     opacity: 0.95;}
 
-.carousel-item {
-  width: 500px;
-  height: 600px;
+body, html {
+  padding-top: 1rem;
+  height: 100%;
+  background-image: url("rings.jpg");
+
+  min-height: 50px;
+/*
+  Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
 }
 
-."btn-primary" {
-    height:200px;
-    width:200px;
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  float: left;
+  text-align: center;
+  padding: 10px;
 }
 
+/* Navbar text */
 .nav-item a{
-    font-family: Verdana !important;
+    font-family: arial !important;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
 }
